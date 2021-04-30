@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  font-family: "Work Sans", sans-serif;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  background-color: rgb(192, 181, 181);
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+}
+
+header {
+  grid-row: 1;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#img {
+  margin-top: 4rem;
+  width: auto;
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.26);
+  border-radius: 50%;
+  margin-left: -3rem;
+  padding: 1rem;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 2rem;
+  color: rgba(253, 253, 253, 0.651);
+}
+
+main {
+  display: flex;
+  grid-row: 1;
+  grid-column: 1;
+  padding: 1rem;
+  flex-direction: row;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 250px;
+}
+#Granit p {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.Granit {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.116);
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Granit:hover {
+  transition-duration: 200ms;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+#granitText {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+}
+.granitText {
+  text-align: center;
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+#tbx {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: #fff;
+  width: 15rem;
+}
+
+#history {
+  background-color: rgba(0, 0, 0, 0.034);
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#omoss {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: rgba(0, 0, 0, 0.034);
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  width: 100%;
+  padding: 1.2rem;
+}
